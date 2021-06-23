@@ -1,0 +1,93 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* overflow: hidden;    */
+}
+
+/* navbar */
+.navbar .nav-link{
+    font-size: 14px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.navbar{
+    border-bottom: 3px solid aqua;
+}
+
+.navbar .nav-item.active{
+    border-left: #444 3px solid;
+}
+.navbar .fab{
+    font-size: 22px;
+    color: white;
+}
+.navbar .fab:hover{
+    border-radius: 25px;
+    color: aqua;
+}
+
+/* showcase */
+#showcase{
+    position: relative;
+    background: url(./images/laptop3.png);
+    background-size: cover;
+    background-position: center;
+    /* width: 100%;
+    height: 100%; */
+    height: 100vh;
+}
+
+#showcase .col-sm-6{
+  padding-top: 200px;
+  text-align: start;
+}
+
+#showcase h2{
+    color:aqua;
+    font-size: 35px;
+}
+/* button */
+.btn:hover{
+    background: aqua;
+    color: black;
+}
+.btn{
+    padding:10px;
+}
+
+#projects .col-md-6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#projects .col-md-6 img{
+    border: 2px solid aqua;
+}
+
+#projects .col-md-6 img:hover{
+    border: 5px solid violet;
+}
+
+#main-footer .lead{
+    text-align: center;
+}
+
+
+#main-footer .footer-social{
+   text-align: center;
+   padding: 20px;
+   
+}
+
+#main-footer .fab{
+    padding: 5px;
+}
+
+
+
+
+@media (max-width:568px) {
+    #showcase .col-sm-6{
+        padding-top: 100px;
+        text-align: start;
+      }
+}
+
